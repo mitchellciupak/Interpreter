@@ -14,7 +14,9 @@ The stack is initially empty.
 
 class Stack {
     //Constructor
-    Stack(){};
+    Stack(){
+
+    };
 
     public:
         int placeholder = -1; //this means nothing
