@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <sys/stat.h>
+#include <fstream.h>
+#include <fstream>
 
 using namespace std;
 
@@ -16,11 +18,20 @@ int main(int argc, char * argv[]) {
             int pc = 0; //program counter (address of next instruction)
             //TODO 1
             //  -Stack * rStack = new rStack(); //runtime stack
-            int rSP = -1; //runtime stack pointer
+            int rsp = -1; //runtime stack pointer
             //TODO 2
             //  -Stack * fpstack = new Stack(); //stack of frame pointers
             int fpsp = -1; //frame pointer stack pointer (points to the top of the frame stack)
-            //TODO 3
-            // -MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
 
+    /*Read in File*/
+        //Open File
+            ifstream inFile;
+            inFile.open(agrv[1], ios::in |ios::binary|ios::ate);
+        //Read File
+            inFile.seekg(0,ios::end);
+            int length = inFile.tellg();
+            
+            MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
+        //Close File
+            inFile.close();
 }
