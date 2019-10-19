@@ -13,7 +13,8 @@ using namespace std;
 int main(int argc, char * argv[]) {
     /*Initialize the interpreter*/
         //Create a Stack
-            //rStack * stack = new rStack();
+            int runSP = -1; //runtime stack pointer
+            // rStack * stack = new rStack();
         //
 
 }
