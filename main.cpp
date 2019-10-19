@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <sys/stat.h>
-#include <fstream.h>
+#include <stdio.h>
 #include <fstream>
 
 using namespace std;
@@ -28,10 +28,14 @@ int main(int argc, char * argv[]) {
             ifstream inFile;
             inFile.open(agrv[1], ios::in |ios::binary|ios::ate);
         //Read File
-            inFile.seekg(0,ios::end);
-            int length = inFile.tellg();
-
-            MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
-        //Close File
+            if(inFile.is_open()){
+                while(inFile.eof()){
+                    char buffer[1] = {};
+                    inFile.read(buffer,1);
+                    cout <<"buffer:"<< buffer;
+                }
+                MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
+            }
+            //Close File
             inFile.close();
 }

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../ECE30862-InterpreterProject/codes/Printf.h
+
+../../ECE30862-InterpreterProject/codes/Pushc.h
+
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/ByteCode.h
+
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/Halt.h
+
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/MemoryObject.h
+stdio.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/stdio.h
+iostream
+-
+
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/Value.h
+
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/main.cpp
+MemoryObject.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/MemoryObject.h
+ByteCode.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/ByteCode.h
+Value.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/Value.h
+Halt.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/Halt.h
+ECE30862-InterpreterProject/codes/Pushc.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/ECE30862-InterpreterProject/codes/Pushc.h
+ECE30862-InterpreterProject/codes/Printf.h
+C:/Users/MitchellJamesCiupak/OneDrive - purdue.edu/Notebooks/ECE 30862/ECE30862-InterpreterProject/ECE30862-InterpreterProject/codes/Printf.h
+iostream
+-
+sys/stat.h
+-
+stdio.h
+-
+fstream
+-
+
