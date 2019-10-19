@@ -11,5 +11,9 @@
 using namespace std;
 
 int main(int argc, char * argv[]) {
+    /*Initialize the interpreter*/
+        //Create a Stack
+
+        //
 
 }
