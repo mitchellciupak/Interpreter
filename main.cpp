@@ -17,7 +17,7 @@ int main(int argc, char * argv[]) {
         //Create a Stack
             int pc = 0; //program counter (address of next instruction)
             //TODO 1
-            //  -Stack * rStack = new rStack(); //runtime stack
+            //  -Stack * rstack = new rStack(); //runtime stack
             int rsp = -1; //runtime stack pointer
             //TODO 2
             //  -Stack * fpstack = new Stack(); //stack of frame pointers
@@ -30,7 +30,7 @@ int main(int argc, char * argv[]) {
         //Read File
             inFile.seekg(0,ios::end);
             int length = inFile.tellg();
-            
+
             MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
         //Close File
             inFile.close();
