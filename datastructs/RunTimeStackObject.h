@@ -1,13 +1,13 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
-
 #ifndef PROJ1_RUNTIMESTACKOBJECT_H
 #define PROJ1_RUNTIMESTACKOBJECT_H
 
 
-class RunTimeStackObject {
+class rStack {
+    //Constructor
 
+    public:
+        int runSP = -1; //stack pointer
+        fpstack
 };
 
 
