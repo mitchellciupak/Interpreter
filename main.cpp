@@ -13,8 +13,14 @@ using namespace std;
 int main(int argc, char * argv[]) {
     /*Initialize the interpreter*/
         //Create a Stack
-            int runSP = -1; //runtime stack pointer
-            // rStack * stack = new rStack();
-        //
+            int pc = 0; //program counter (address of next instruction)
+            //TODO 1
+            //  -Stack * rStack = new rStack(); //runtime stack
+            int rSP = -1; //runtime stack pointer
+            //TODO 2
+            //  -Stack * fpstack = new Stack(); //stack of frame pointers
+            int fpsp = -1; //frame pointer stack pointer (points to the top of the frame stack)
+            //TODO 3
+            // -MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
 
 }

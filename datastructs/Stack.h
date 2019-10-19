@@ -12,9 +12,9 @@ the data items. Data items are of type char, short, int or float.
 The stack is initially empty.
 */
 
-class rStack {
+class Stack {
     //Constructor
-    rStack(){};
+    Stack(){};
 
     public:
         int placeholder = -1; //this means nothing
