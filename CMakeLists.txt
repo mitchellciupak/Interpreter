@@ -7,5 +7,4 @@ include_directories(..)
 
 add_executable(proj1
         main.cpp
-        Set.cpp
-        Set.h)
+        )
