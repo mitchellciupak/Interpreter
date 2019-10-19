@@ -2,8 +2,8 @@
 // Created by Colin Cassens on 2019-10-19.
 //
 
-#include "Printf.h"
+#include "prints.h"
 
-void Printf::execute() {
+void prints::execute() {
     System.out.println(rstack[sp--]);
 }
