@@ -18,8 +18,8 @@ class Stack {
 
     };
 
-    public:
-        int placeholder = -1; //this means nothing
+public:
+    int placeholder = -1; //this means nothing
 };
 
 

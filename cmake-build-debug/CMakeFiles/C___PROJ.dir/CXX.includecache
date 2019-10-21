@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../codes/add.h
+
+../codes/call.h
+
+../codes/cmpe.h
+
+../codes/cmpgt.h
+
+../codes/cmplt.h
+
+../codes/div.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/./codes/Printf.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/./codes/Pushc.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/ByteCode.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/Halt.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.h
+stdio.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/stdio.h
+iostream
+-
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/add.cpp
+add.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/add.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/add.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/main.cpp
+main.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/main.h
+
+/Users/colincassens/Documents/ECE30862/C++ PROJ/main.h
+MemoryObject.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.h
+ByteCode.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/ByteCode.h
+Value.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.h
+Halt.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/Halt.h
+add.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/add.h
+call.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/call.h
+cmpe.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/cmpe.h
+cmpgt.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/cmpgt.h
+cmplt.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/cmplt.h
+div.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/div.h
+./codes/Pushc.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/./codes/Pushc.h
+./codes/Printf.h
+/Users/colincassens/Documents/ECE30862/C++ PROJ/./codes/Printf.h
+iostream
+-
+sys/stat.h
+-
+stdio.h
+-
+fstream
+-
+
