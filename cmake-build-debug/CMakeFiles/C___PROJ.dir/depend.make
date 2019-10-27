@@ -130,6 +130,7 @@ CMakeFiles/C___PROJ.dir/main.cpp.o: ../codes/cmpe.h
 CMakeFiles/C___PROJ.dir/main.cpp.o: ../codes/cmpgt.h
 CMakeFiles/C___PROJ.dir/main.cpp.o: ../codes/cmplt.h
 CMakeFiles/C___PROJ.dir/main.cpp.o: ../codes/div.h
+CMakeFiles/C___PROJ.dir/main.cpp.o: ../datastructs/Stack.h
 CMakeFiles/C___PROJ.dir/main.cpp.o: .././codes/Printf.h
 CMakeFiles/C___PROJ.dir/main.cpp.o: .././codes/Pushc.h
 CMakeFiles/C___PROJ.dir/main.cpp.o: ../ByteCode.h

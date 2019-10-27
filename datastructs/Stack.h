@@ -11,16 +11,30 @@ item. The object should have a field to hold the value of the data item, and a f
 the data items. Data items are of type char, short, int or float.
 The stack is initially empty.
 */
+#include "main.h"
 
 class Stack {
-    //Constructor
     Stack(){
-        //Initialize an array of pointers to RuntimeStack Objects
-        // or Value objects (not sure which, hard to tell the dependency of the Value object)
-    };
+        sp = -1;
+    }
 
 public:
-    int placeholder = -1; //this means nothing
+    static vector<Value> stackVect;     //Creates the stack vector as a static vector of value objects
+                                            //-Used a vector object for dynamic memory allocation
+                                            //-Used static so that any object that needs to access the
+                                            // stack can just create a stack object
+    // Used to push a Value object onto the stack
+    void stack_Push(Value v){
+        stackVect[sp++] = v;
+    }
+
+    //Used to pull a Value object from the stack
+    Value stack_Pull(){
+        return stackVect[sp--];
+    }
+
+private:
+    static void int sp;
 };
 
 

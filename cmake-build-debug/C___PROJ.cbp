@@ -335,6 +335,9 @@
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/main.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/main.h">
+			<Option target="C___PROJ"/>
+		</Unit>
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
