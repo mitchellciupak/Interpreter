@@ -5,5 +5,5 @@
 #include "popm.h"
 
 void popm::execute() {
-    sp -= rstack[sp];
+    sp -= rstack[sp] + 1;
 }

@@ -6,5 +6,5 @@
 
 void ret::execute() {
     sp = fpstack[fpsp--];
-    pc = rstack[sp];
+    pc = rstack[sp--];
 }
