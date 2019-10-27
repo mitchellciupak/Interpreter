@@ -87,7 +87,7 @@ add_executable(C___PROJ
         Halt.cpp
         Halt.h
         main.cpp
-        MemoryObject.cpp
-        MemoryObject.h
-        Value.cpp
-        Value.h)
+        datastructs/MemoryObject.cpp
+        datastructs/MemoryObject.h
+        datastructs/Value.cpp
+        datastructs/Value.h)

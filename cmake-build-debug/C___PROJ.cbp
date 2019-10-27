@@ -8,339 +8,337 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug"/>
+				<Option working_dir="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug"/>
+				<Option working_dir="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug"/>
+				<Option working_dir="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C___PROJ">
-				<Option output="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/C___PROJ" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug"/>
+				<Option output="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/C___PROJ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/."/>
-					<Add directory="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes"/>
-					<Add directory="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs"/>
+					<Add directory="/Users/colincassens/Documents/ECE30862/C++ PROJ/."/>
+					<Add directory="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes"/>
+					<Add directory="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 C___PROJ"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 C___PROJ"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C___PROJ/fast">
-				<Option output="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/C___PROJ" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug"/>
+				<Option output="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/C___PROJ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/."/>
-					<Add directory="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes"/>
-					<Add directory="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs"/>
+					<Add directory="/Users/colincassens/Documents/ECE30862/C++ PROJ/."/>
+					<Add directory="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes"/>
+					<Add directory="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 C___PROJ/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 C___PROJ/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/colincassens/Documents/ECE30862/C++\ PROJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/ByteCode.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/ByteCode.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/ByteCode.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/ByteCode.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Halt.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Halt.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Halt.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Halt.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/MemoryObject.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/MemoryObject.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Value.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Value.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Printf.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Printf.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Printf.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Printf.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushc.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushc.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushc.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushc.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushi.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushi.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushi.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushi.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushs.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushs.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushs.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushs.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/add.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/add.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/add.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/add.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/call.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/call.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/call.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/call.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpe.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/cmpe.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpe.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/cmpe.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpgt.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/cmpgt.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpgt.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/cmpgt.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmplt.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/cmplt.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmplt.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/cmplt.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/div.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/div.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/div.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/div.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/halt.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/halt.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/halt.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/halt.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmp.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/jmp.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmp.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/jmp.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmpc.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/jmpc.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmpc.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/jmpc.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/mul.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/mul.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/mul.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/mul.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekc.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peekc.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekc.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peekc.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekf.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peekf.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekf.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peekf.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeki.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peeki.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeki.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peeki.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeks.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peeks.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeks.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/peeks.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokec.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokec.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokec.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokec.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokef.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokef.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokef.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokef.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokei.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokei.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokei.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokei.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokes.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokes.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokes.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pokes.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popa.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/popa.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popa.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/popa.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popm.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/popm.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popm.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/popm.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popv.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/popv.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popv.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/popv.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printc.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/printc.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printc.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/printc.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printi.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/printi.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printi.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/printi.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/prints.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/prints.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/prints.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/prints.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushf.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushf.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushf.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushf.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvc.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvc.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvc.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvc.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvf.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvf.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvf.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvf.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvi.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvi.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvi.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvi.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvs.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvs.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvs.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/pushvs.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/ret.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/ret.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/ret.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/ret.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/sub.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/sub.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/sub.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/sub.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/swp.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/swp.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/swp.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/swp.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/Stack.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Stack.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/Stack.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Stack.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/main.cpp">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/main.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/main.h">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/main.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/CMakeLists.txt">
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
