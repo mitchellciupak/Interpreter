@@ -1,4 +1,4 @@
-# Install script for directory: /Users/colincassens/Documents/ECE30862/C++ PROJ
+# Install script for directory: /Users/mitchellciupak/Documents/ECE30862-InterpreterProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

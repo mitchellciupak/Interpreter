@@ -15,12 +15,14 @@ The stack is initially empty.
 class Stack {
     //Constructor
     Stack(){
+        int * rtStack = new Stack();
         //Initialize an array of pointers to RuntimeStack Objects
         // or Value objects (not sure which, hard to tell the dependency of the Value object)
     };
 
-public:
-    int placeholder = -1; //this means nothing
+    public:
+        int placeholder = -1; //this means nothing
+
 };
 
 
