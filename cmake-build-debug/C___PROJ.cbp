@@ -98,18 +98,6 @@
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Halt.h">
 			<Option target="C___PROJ"/>
 		</Unit>
-		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.cpp">
-			<Option target="C___PROJ"/>
-		</Unit>
-		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.h">
-			<Option target="C___PROJ"/>
-		</Unit>
-		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.cpp">
-			<Option target="C___PROJ"/>
-		</Unit>
-		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.h">
-			<Option target="C___PROJ"/>
-		</Unit>
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Printf.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
@@ -326,10 +314,22 @@
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/swp.h">
 			<Option target="C___PROJ"/>
 		</Unit>
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/MemoryObject.cpp">
+			<Option target="C___PROJ"/>
+		</Unit>
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/MemoryObject.h">
+			<Option target="C___PROJ"/>
+		</Unit>
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Stack.cpp">
 			<Option target="C___PROJ"/>
 		</Unit>
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Stack.h">
+			<Option target="C___PROJ"/>
+		</Unit>
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Value.cpp">
+			<Option target="C___PROJ"/>
+		</Unit>
+		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Value.h">
 			<Option target="C___PROJ"/>
 		</Unit>
 		<Unit filename="/Users/colincassens/Documents/ECE30862/C++ PROJ/main.cpp">

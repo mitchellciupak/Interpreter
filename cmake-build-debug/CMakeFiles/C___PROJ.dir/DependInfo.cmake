@@ -6,8 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/ByteCode.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/ByteCode.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/Halt.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/Halt.cpp.o"
-  "/Users/colincassens/Documents/ECE30862/C++ PROJ/MemoryObject.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/MemoryObject.cpp.o"
-  "/Users/colincassens/Documents/ECE30862/C++ PROJ/Value.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/Value.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Printf.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/codes/Printf.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushc.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/codes/Pushc.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/Pushi.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/codes/Pushi.cpp.o"
@@ -44,7 +42,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/ret.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/codes/ret.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/sub.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/codes/sub.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/codes/swp.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/codes/swp.cpp.o"
+  "/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/MemoryObject.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/datastructs/MemoryObject.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Stack.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/datastructs/Stack.cpp.o"
+  "/Users/colincassens/Documents/ECE30862/C++ PROJ/datastructs/Value.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/datastructs/Value.cpp.o"
   "/Users/colincassens/Documents/ECE30862/C++ PROJ/main.cpp" "/Users/colincassens/Documents/ECE30862/C++ PROJ/cmake-build-debug/CMakeFiles/C___PROJ.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
