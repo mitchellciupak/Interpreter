@@ -94,22 +94,244 @@
 		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/ByteCode.h">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/MemoryObject.cpp">
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Halt.cpp">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/MemoryObject.h">
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Halt.h">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Value.cpp">
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Printf.cpp">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
-		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/Value.h">
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Printf.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushc.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushc.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushi.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushi.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushs.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/Pushs.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/add.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/add.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/call.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/call.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpe.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpe.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpgt.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmpgt.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmplt.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/cmplt.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/div.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/div.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/halt.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/halt.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmp.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmp.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmpc.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/jmpc.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/mul.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/mul.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekc.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekc.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekf.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peekf.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeki.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeki.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeks.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/peeks.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokec.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokec.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokef.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokef.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokei.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokei.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokes.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pokes.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popa.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popa.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popm.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popm.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popv.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/popv.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printc.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printc.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printi.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/printi.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/prints.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/prints.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushf.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushf.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvc.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvc.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvf.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvf.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvi.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvi.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvs.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/pushvs.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/ret.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/ret.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/sub.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/sub.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/swp.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/codes/swp.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/MemoryObject.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/MemoryObject.h">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
 		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/Stack.cpp">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
 		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/Stack.h">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/Value.cpp">
+			<Option target="ECE30862_InterpreterProject"/>
+		</Unit>
+		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/datastructs/Value.h">
 			<Option target="ECE30862_InterpreterProject"/>
 		</Unit>
 		<Unit filename="/Users/mitchellciupak/Documents/ECE30862-InterpreterProject/main.cpp">
