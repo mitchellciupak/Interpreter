@@ -11,6 +11,7 @@ class Value : public MemoryObject {
         short getShort();
         int getInt();
         float getFloat();
+
 };
 
 
