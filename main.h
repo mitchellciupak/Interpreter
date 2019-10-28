@@ -2,9 +2,9 @@
 #define C_PROJ_MAIN_H
 
 #include "MemoryObject.h"
-#include "ByteCode.h"
+#include "datastructs/ByteCode.h"
 #include "Value.h"
-#include "Halt.h"
+#include "codes/Halt.h"
 #include "add.h"
 #include "call.h"
 #include "cmpe.h"
