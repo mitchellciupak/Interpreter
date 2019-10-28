@@ -4,16 +4,18 @@
 #include "MemoryObject.h"
 #include "datastructs/ByteCode.h"
 #include "Value.h"
-#include "codes/Halt.h"
-#include "add.h"
-#include "call.h"
+/*
+//#include "codes/Halt.h"
+//#include "add.h"
+//#include "call.h"
 #include "cmpe.h"
 #include "cmpgt.h"
 #include "cmplt.h"
 #include "div.h"
+*/
 #include "Stack.h"
-#include "./codes/Pushc.h"
-#include "./codes/Printf.h"
+//#include "./codes/Pushc.h"
+//#include "./codes/Printf.h"
 
 #include <iostream>
 #include <sys/stat.h>

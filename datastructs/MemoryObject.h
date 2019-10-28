@@ -1,9 +1,12 @@
 #ifndef C_PROJ_MEMORYOBJECT_H
 #define C_PROJ_MEMORYOBJECT_H
 
+
 #include "stdio.h"
 #include <iostream>
+
 using namespace std;
+//#include "main.h"
 
 class MemoryObject {
     MemoryObject() {
@@ -11,7 +14,7 @@ class MemoryObject {
     }
     public:
         char * bytecodeChar;
-        void execute();
+        //virtual void execute();
         void getChar(char& buffer);
         void getShort();
         void getInt();

@@ -4,7 +4,7 @@
 #include "MemoryObject.h"
 
 class ByteCode : public MemoryObject {
-    virtual void execute();
+    virtual void execute() =0;
 };
 
 #endif //C_PROJ_BYTECODE_H

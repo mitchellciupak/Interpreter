@@ -12,6 +12,7 @@ the data items. Data items are of type char, short, int or float.
 The stack is initially empty.
 */
 #include "main.h"
+#include <vector>
 
 class Stack {
     Stack(){
@@ -19,7 +20,7 @@ class Stack {
     }
 
 public:
-    static vector<Value> stackVect;     //Creates the stack vector as a static vector of value objects
+    std::vector<Value> stackVect;     //Creates the stack vector as a static vector of value objects
                                             //-Used a vector object for dynamic memory allocation
                                             //-Used static so that any object that needs to access the
                                             // stack can just create a stack object
@@ -34,7 +35,7 @@ public:
     }
 
 private:
-    static void int sp;
+    static int sp;
 };
 
 
