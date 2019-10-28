@@ -11,13 +11,10 @@ int main(int argc, char * argv[]) {
     Stack * fpstack; //stack of frame pointers
     int fpsp = -1; //frame pointer stack pointer (points to the top of the frame stack)
 
-    /*Read in File*/
-    //Open File ((ifstream name).unsetf(std::ios::skipws); )
-
+    //Read File into vector of bytes (buffer)
     ifstream inFile(argv[1], ios::in |ios::binary);//|ios::ate);;
-    //inFile.open(argv[1], ios::in |ios::binary|ios::ate);
     std::vector<unsigned char> buffer(std::istreambuf_iterator<char>(inFile), {});
-    //Read File
+
     //Close File
     inFile.close();
 }

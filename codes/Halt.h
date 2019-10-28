@@ -2,7 +2,7 @@
 #define C_PROJ_HALT_H
 
 
-#include "main.h"
+#include "../main.h"
 
 class Halt : public ByteCode{
     public:
