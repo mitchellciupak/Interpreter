@@ -1,7 +1,3 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
-
 #ifndef C_PROJ_MAIN_H
 #define C_PROJ_MAIN_H
 
@@ -16,8 +12,6 @@
 #include "cmplt.h"
 #include "div.h"
 #include "Stack.h"
-
-
 #include "./codes/Pushc.h"
 #include "./codes/Printf.h"
 
