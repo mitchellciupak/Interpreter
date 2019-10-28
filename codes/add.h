@@ -1,13 +1,11 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
-
 #ifndef PROJ1_ADD_H
 #define PROJ1_ADD_H
 
+#include "../main.h"
 
 class add : public ByteCode{
-    public execute();
+    public:
+        void execute();
 };
 
 

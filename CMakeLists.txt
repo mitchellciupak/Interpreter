@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.13)
-project(C___PROJ)
+cmake_minimum_required(VERSION 3.14)
+project(ECE30862_InterpreterProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -7,79 +7,7 @@ include_directories(.)
 include_directories(codes)
 include_directories(datastructs)
 
-add_executable(C___PROJ
-        codes/add.cpp
-        codes/add.h
-        codes/call.cpp
-        codes/call.h
-        codes/cmpe.cpp
-        codes/cmpe.h
-        codes/cmpgt.cpp
-        codes/cmpgt.h
-        codes/cmplt.cpp
-        codes/cmplt.h
-        codes/div.cpp
-        codes/div.h
-        codes/halt.cpp
-        codes/halt.h
-        codes/jmp.cpp
-        codes/jmp.h
-        codes/jmpc.cpp
-        codes/jmpc.h
-        codes/mul.cpp
-        codes/mul.h
-        codes/peekc.cpp
-        codes/peekc.h
-        codes/peekf.cpp
-        codes/peekf.h
-        codes/peeki.cpp
-        codes/peeki.h
-        codes/peeks.cpp
-        codes/peeks.h
-        codes/pokec.cpp
-        codes/pokec.h
-        codes/pokef.cpp
-        codes/pokef.h
-        codes/pokei.cpp
-        codes/pokei.h
-        codes/pokes.cpp
-        codes/pokes.h
-        codes/popa.cpp
-        codes/popa.h
-        codes/popm.cpp
-        codes/popm.h
-        codes/popv.cpp
-        codes/popv.h
-        codes/printc.cpp
-        codes/printc.h
-        codes/Printf.cpp
-        codes/Printf.h
-        codes/printi.cpp
-        codes/printi.h
-        codes/prints.cpp
-        codes/prints.h
-        codes/Pushc.cpp
-        codes/Pushc.h
-        codes/pushf.cpp
-        codes/pushf.h
-        codes/Pushi.cpp
-        codes/Pushi.h
-        codes/Pushs.cpp
-        codes/Pushs.h
-        codes/pushvc.cpp
-        codes/pushvc.h
-        codes/pushvf.cpp
-        codes/pushvf.h
-        codes/pushvi.cpp
-        codes/pushvi.h
-        codes/pushvs.cpp
-        codes/pushvs.h
-        codes/ret.cpp
-        codes/ret.h
-        codes/sub.cpp
-        codes/sub.h
-        codes/swp.cpp
-        codes/swp.h
+add_executable(ECE30862_InterpreterProject
         datastructs/Stack.cpp
         datastructs/Stack.h
         ByteCode.cpp
@@ -87,6 +15,7 @@ add_executable(C___PROJ
         Halt.cpp
         Halt.h
         main.cpp
+        main.h
         MemoryObject.cpp
         MemoryObject.h
         Value.cpp

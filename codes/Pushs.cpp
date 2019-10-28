@@ -5,7 +5,7 @@
 #include "Pushs.h"
 
 void Pushs::execute() {
-    short s = mem[pc+1, mem[pc+2];
-    rstack[++sp] = s;
-    pc += 3;
+//    short s = mem[pc+1, mem[pc+2];
+//    rstack[++sp] = s;
+//    pc += 3;
 }

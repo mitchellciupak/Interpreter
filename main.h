@@ -25,5 +25,6 @@
 #include <sys/stat.h>
 #include <stdio.h>
 #include <fstream>
+#include <vector>
 
 #endif //C_PROJ_MAIN_H

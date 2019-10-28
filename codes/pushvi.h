@@ -1,13 +1,13 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
 
 #ifndef PROJ1_PUSHVI_H
 #define PROJ1_PUSHVI_H
 
 
+#include <main.h>
+
 class pushvi : public ByteCode{
-    public void execute();
+    public:
+        void execute();
 };
 
 

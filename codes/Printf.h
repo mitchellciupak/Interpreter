@@ -1,13 +1,13 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
-
 #ifndef C_PROJ_PRINTF_H
 #define C_PROJ_PRINTF_H
 
 
+#include <main.h>
+
 class Printf : public ByteCode{
-    void execute();
+    public:
+        void execute();
+
 };
 
 

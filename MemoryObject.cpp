@@ -1,5 +1,5 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
-
 #include "MemoryObject.h"
+
+void MemoryObject:: getChar(char& buffer) {
+    this->bytecodeChar;
+}
