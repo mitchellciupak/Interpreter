@@ -5,9 +5,9 @@
 #include "call.h"
 
 void call::execute() {
-    fpstack[++fpsp] = sp - rstack[sp] - 1;  // subtract off argument stack
-                                        // entries
-    sp--;
-    pc = rstack[sp--]; //set the PC to the address of the label to be
-                        // jumped to
+//    fpstack[++fpsp] = sp - rstack[sp];  // subtract off argument stack
+//                                        // entries
+//    sp--;
+//    pc = rstack[sp--]; //set the PC to the address of the label to be
+//                        // jumped to
 }

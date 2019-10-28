@@ -1,13 +1,12 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
-
 #ifndef C_PROJ_PUSHC_H
 #define C_PROJ_PUSHC_H
 
 
+#include <main.h>
+
 class Pushc : public ByteCode{
-    void execute();
+    public:
+        void execute();
 };
 
 

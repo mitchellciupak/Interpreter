@@ -6,8 +6,11 @@
 #define PROJ1_PUSHS_H
 
 
+#include <main.h>
+
 class Pushs : public ByteCode{
-    public void execute();
+    public:
+        void execute();
 };
 
 

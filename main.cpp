@@ -12,18 +12,12 @@ int main(int argc, char * argv[]) {
     int fpsp = -1; //frame pointer stack pointer (points to the top of the frame stack)
 
     /*Read in File*/
-        //Open File
-        ifstream inFile;
-        inFile.open(argv[1], ios::in |ios::binary|ios::ate);
-        //Read File
-        if(inFile.is_open()){
-            while(inFile.eof()){
-                char buffer[1] = {};
-                inFile.read(buffer,1);
-                cout <<"buffer:"<< buffer;
-            }
-            MemoryObject * mem = new MemoryObject(); //Program memory (holds the array of bytes to be read into the interpreter)
-        }
-        //Close File
-        inFile.close();
+    //Open File ((ifstream name).unsetf(std::ios::skipws); )
+
+    ifstream inFile(argv[1], ios::in |ios::binary);//|ios::ate);;
+    //inFile.open(argv[1], ios::in |ios::binary|ios::ate);
+    std::vector<unsigned char> buffer(std::istreambuf_iterator<char>(inFile), {});
+    //Read File
+    //Close File
+    inFile.close();
 }

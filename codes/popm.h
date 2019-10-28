@@ -6,8 +6,11 @@
 #define PROJ1_POPM_H
 
 
+#include <main.h>
+
 class popm : public ByteCode{
-    public void execute();
+    public:
+        void execute();
 };
 
 
