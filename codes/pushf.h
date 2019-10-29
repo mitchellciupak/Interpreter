@@ -6,7 +6,9 @@
 
 class pushf : public ByteCode{
     public:
-        void execute();
+        void execute(){
+
+        };
 };
 
 

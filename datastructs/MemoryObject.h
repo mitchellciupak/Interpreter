@@ -9,9 +9,7 @@ using namespace std;
 //#include "main.h"
 
 class MemoryObject {
-    MemoryObject() {
-//        this->bytecodeChar = calloc(size, sizeof())
-    }
+
     public:
         char * bytecodeChar;
         //virtual void execute();

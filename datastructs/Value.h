@@ -5,12 +5,32 @@
 #include "MemoryObject.h"
 
 class Value : public MemoryObject {
-    //valueTag enum {char, short, int, float, error};
-    public:
-        char getChar();
-        short getShort();
-        int getInt();
-        float getFloat();
+    enum valueTag { c , s , i , f , e };
+
+    Value(char v){
+        valHolder = (float)v;
+        tag = c;
+    }
+    Value(short v){
+        valHolder = (float)v;
+        tag = s;
+    }
+    Value(int v){
+        valHolder = (float)v;
+        tag = i;
+    }
+    Value(float v){
+        valHolder = v;
+        tag = f;
+    }
+
+public:
+    float valHolder;
+    valueTag tag;
+    char getChar();
+    short getShort();
+    int getInt();
+    float getFloat();
 
 };
 
