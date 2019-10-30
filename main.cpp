@@ -2,6 +2,9 @@
 
 using namespace std;
 
+//Functions
+void chooseCode(char * buffer);
+
 int main(int argc, char * argv[]) {
     /*Initialize the interpreter*/
     //Create a Stack
@@ -17,13 +20,152 @@ int main(int argc, char * argv[]) {
 
     //read through the file:
     for(pc = 0; pc < buffer.size(); pc++){
-        if(buffer[pc] == 71){
-            pushf::execute();     //THIS DOESNT WORK
-        }
+        chooseCode(&(buffer[pc]));
     }
 
     //Close File
     inFile.close();
 
     /*Initialize Stack*/
+}
+
+void chooseCode(char * buffer) {
+    if (*buffer == (char) 0) {
+        halt::print();
+        std::exit(EXIT_SUCCESS);
+    }
+
+    if (*buffer > (char) 99) {
+        if (*buffer < (char) 120) { //arithmetic byte codes
+            switch (*buffer) {
+                case 100:
+                    add::execute();
+                    break;
+                case 104:
+                    sub::execute();
+                    break;
+                case 108:
+                    mul::execute();
+                    break;
+                case 112:
+                    div::execute();
+                    break;
+                default :
+                    cout << "Invalid" << endl;
+            }
+        } else if (*buffer < (char) 141) { //comparison bytecodes
+            switch (*buffer) {
+                case 132:
+                    cmpe::execute();
+                    break;
+                case 136:
+                    cmplt::execute();
+                    break;
+                case 136:
+                    cmpgt::execute();
+                    break;
+                default :
+                    cout << "Invalid" << endl;
+            }
+        } else { //special op codes
+            switch (*buffer) {
+                case 144:
+                    printc::execute();
+                    break;
+                case 145:
+                    prints::execute();
+                    break;
+                case 146:
+                    printi::execute();
+                    break;
+                case 147:
+                    printf::execute();
+                    break;
+                default :
+                    cout << "Invalid" << endl;
+            }
+        }
+    } else if (*buffer < 50) { //Control flow bytecodes
+        switch (*buffer) {
+            case 36:
+                jmp::execute();
+                break;
+            case 40:
+                jmpc::execute();
+                break;
+            case 44:
+                call::execute();
+                break;
+            case 48:
+                ret::execute();
+                break;
+            default :
+                cout << "Invalid" << endl;
+        }
+    } else { //stack manipulation byte codes
+        switch (*buffer) {
+            case 68:
+                pushc::execute();
+                break;
+            case 69:
+                pushs::execute();
+                break;
+            case 70:
+                pushi::execute();
+                break;
+            case 71:
+                pushf::execute();
+                break;
+            case 72:
+                pushvc::execute();
+                break;
+            case 73:
+                pushvs::execute();
+                break;
+            case 74:
+                pushvi::execute();
+                break;
+            case 75:
+                pushvf::execute();
+                break;
+            case 76:
+                popm::execute();
+                break;
+            case 77:
+                popa::execute();
+                break;
+            case 80:
+                popv::execute();
+                break;
+            case 84:
+                peekc::execute();
+                break;
+            case 85:
+                peeks::execute();
+                break;
+            case 86:
+                peeki::execute();
+                break;
+            case 87:
+                peekf::execute();
+                break;
+            case 88:
+                pokec::execute();
+                break;
+            case 89:
+                pokes::execute();
+                break;
+            case 90:
+                pokei::execute();
+                break;
+            case 91:
+                pokef::execute();
+                break;
+            case 94:
+                swp::execute();
+                break;
+            default :
+                cout << "Invalid" << endl;
+        }
+    }
 }
