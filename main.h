@@ -13,6 +13,7 @@
 #include "cmplt.h"
 #include "div.h"
 */
+#include "pushf.h"
 #include "Stack.h"
 //#include "./codes/Pushc.h"
 //#include "./codes/Printf.h"

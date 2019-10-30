@@ -16,9 +16,9 @@ int main(int argc, char * argv[]) {
     std::vector<unsigned char> buffer(std::istreambuf_iterator<char>(inFile), {});
 
     //read through the file:
-    for(pc = 0, pc < buffer.size(), pc++){
+    for(pc = 0; pc < buffer.size(); pc++){
         if(buffer[pc] == 71){
-            pushf.execute();
+            pushf::execute();     //THIS DOESNT WORK
         }
     }
 

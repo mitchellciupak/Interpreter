@@ -5,10 +5,8 @@
 #include <main.h>
 
 class pushf : public ByteCode{
-    public:
-        void execute(){
-
-        };
+public:
+    static void execute(){};
 };
 
 
