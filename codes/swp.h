@@ -2,11 +2,11 @@
 #define PROJ1_SWP_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class swp : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

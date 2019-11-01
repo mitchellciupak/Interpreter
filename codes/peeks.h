@@ -2,11 +2,11 @@
 #define PROJ1_PEEKS_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class peeks : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

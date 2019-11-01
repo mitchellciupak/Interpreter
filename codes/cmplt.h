@@ -2,11 +2,11 @@
 #define PROJ1_CMPLT_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class cmplt : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

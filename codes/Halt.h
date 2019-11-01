@@ -2,11 +2,12 @@
 #define C_PROJ_HALT_H
 
 
-#include "../main.h"
+#include "ByteCode.h"
 
 class Halt : public ByteCode{
     public:
-        void execute();
+        static void execute();
+        static void print();
 };
 
 

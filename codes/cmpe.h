@@ -2,11 +2,11 @@
 #define PROJ1_CMPE_H
 
 
-#include "main.h"
+#include "ByteCode.h"
 
 class cmpe : public ByteCode{
     public:
-        void execute();
+       static void execute();
 };
 
 

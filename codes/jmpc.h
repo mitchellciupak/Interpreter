@@ -6,11 +6,11 @@
 #define PROJ1_JMPC_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class jmpc : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

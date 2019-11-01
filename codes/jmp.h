@@ -2,11 +2,11 @@
 #define PROJ1_JMP_H
 
 
-#include "main.h"
+#include "ByteCode.h"
 
 class jmp : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

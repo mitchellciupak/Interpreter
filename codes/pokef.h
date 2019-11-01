@@ -2,11 +2,11 @@
 #define PROJ1_POKEF_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class pokef : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

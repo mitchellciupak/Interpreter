@@ -3,11 +3,11 @@
 #define PROJ1_PUSHVC_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class pushvc : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

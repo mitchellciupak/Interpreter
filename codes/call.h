@@ -2,11 +2,11 @@
 #define PROJ1_CALL_H
 
 
-#include "main.h"
+#include "ByteCode.h"
 
 class call : public ByteCode{
     public:
-        void execute();
+        static void execute();
 
 };
 

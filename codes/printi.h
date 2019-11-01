@@ -2,11 +2,11 @@
 #define PROJ1_PRINTI_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class printi : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

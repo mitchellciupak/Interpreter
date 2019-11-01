@@ -2,11 +2,11 @@
 #define PROJ1_PRINTS_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class prints : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

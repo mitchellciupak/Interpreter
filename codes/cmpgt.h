@@ -6,11 +6,11 @@
 #define PROJ1_CMPGT_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class cmpgt : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

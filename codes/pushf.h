@@ -2,7 +2,7 @@
 #define PROJ1_PUSHF_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class pushf : public ByteCode{
 public:

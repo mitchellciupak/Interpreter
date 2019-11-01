@@ -1,11 +1,11 @@
 #ifndef PROJ1_POKES_H
 #define PROJ1_POKES_H
 
-#include <main.h>
+#include "ByteCode.h"
 
 class pokes : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

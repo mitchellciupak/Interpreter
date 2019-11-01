@@ -2,11 +2,11 @@
 #define PROJ1_POPV_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class popv : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 #endif //PROJ1_POPV_H

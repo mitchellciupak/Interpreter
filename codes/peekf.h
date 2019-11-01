@@ -2,11 +2,11 @@
 #define PROJ1_PEEKF_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class peekf : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 #endif //PROJ1_PEEKF_H

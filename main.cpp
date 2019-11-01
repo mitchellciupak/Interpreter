@@ -29,14 +29,14 @@ int main(int argc, char * argv[]) {
     /*Initialize Stack*/
 }
 
-void chooseCode(char * buffer) {
+void chooseCode(unsigned char * buffer) {
     if (*buffer == (char) 0) {
-        halt::print();
+        Halt::print();
         std::exit(EXIT_SUCCESS);
     }
 
-    if (*buffer > (char) 99) {
-        if (*buffer < (char) 120) { //arithmetic byte codes
+    if (int(*buffer) >  99) {
+        if (int(*buffer) < 120) { //arithmetic byte codes
             switch (*buffer) {
                 case 100:
                     add::execute();
@@ -53,7 +53,7 @@ void chooseCode(char * buffer) {
                 default :
                     cout << "Invalid" << endl;
             }
-        } else if (*buffer < (char) 141) { //comparison bytecodes
+        } else if (int(*buffer) < 141) { //comparison bytecodes
             switch (*buffer) {
                 case 132:
                     cmpe::execute();
@@ -61,7 +61,7 @@ void chooseCode(char * buffer) {
                 case 136:
                     cmplt::execute();
                     break;
-                case 136:
+                case 140:
                     cmpgt::execute();
                     break;
                 default :
@@ -79,13 +79,13 @@ void chooseCode(char * buffer) {
                     printi::execute();
                     break;
                 case 147:
-                    printf::execute();
+                    Printf::execute();
                     break;
                 default :
                     cout << "Invalid" << endl;
             }
         }
-    } else if (*buffer < 50) { //Control flow bytecodes
+    } else if (int(*buffer) < 50) { //Control flow bytecodes
         switch (*buffer) {
             case 36:
                 jmp::execute();
@@ -105,13 +105,13 @@ void chooseCode(char * buffer) {
     } else { //stack manipulation byte codes
         switch (*buffer) {
             case 68:
-                pushc::execute();
+                Pushc::execute();
                 break;
             case 69:
-                pushs::execute();
+                Pushs::execute();
                 break;
             case 70:
-                pushi::execute();
+                Pushi::execute();
                 break;
             case 71:
                 pushf::execute();

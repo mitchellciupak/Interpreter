@@ -2,11 +2,11 @@
 #define PROJ1_PUSHVS_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class pushvs : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

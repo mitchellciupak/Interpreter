@@ -6,11 +6,11 @@
 #define PROJ1_DIV_H
 
 
-#include "main.h"
+#include "ByteCode.h"
 
 class div : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

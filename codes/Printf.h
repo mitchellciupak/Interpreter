@@ -2,11 +2,11 @@
 #define C_PROJ_PRINTF_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class Printf : public ByteCode{
     public:
-        void execute();
+        static void execute(){};
 
 };
 

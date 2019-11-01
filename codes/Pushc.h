@@ -2,11 +2,11 @@
 #define C_PROJ_PUSHC_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class Pushc : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

@@ -2,11 +2,11 @@
 #define PROJ1_PEEKI_H
 
 
-#include <main.h>
+#include "ByteCode.h"
 
 class peeki: public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

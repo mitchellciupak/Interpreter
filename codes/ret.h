@@ -6,7 +6,7 @@
 
 class ret : public ByteCode{
     public:
-        void execute();
+        static void execute();
 };
 
 

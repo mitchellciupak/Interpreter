@@ -1,7 +1,4 @@
 #include "Value.h"
-<<<<<<< Updated upstream
-=======
-
 char Value::getChar() {
     return this->cVal;
 }
@@ -17,4 +14,3 @@ int Value::getInt() {
 float Value::getFloat() {
     return this->fVal;
 }
->>>>>>> Stashed changes
