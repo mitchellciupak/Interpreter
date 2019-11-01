@@ -5,18 +5,8 @@
 #include "stdio.h"
 #include <iostream>
 
-using namespace std;
-//#include "main.h"
-
 class MemoryObject {
 
-    public:
-        char * bytecodeChar;
-        //virtual void execute();
-        void getChar(char& buffer);
-        void getShort();
-        void getInt();
-        void getFloat();
 };
 
 //std::ostream& operator<<(std::ostream& os, const Set& set) {

@@ -4,6 +4,7 @@
 #include "MemoryObject.h"
 #include "datastructs/ByteCode.h"
 #include "Value.h"
+#include "Buffer.h"
 
 #include "codes/Halt.h"
 #include "add.h"

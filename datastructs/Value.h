@@ -11,34 +11,52 @@ class Value : public MemoryObject {
     enum valueTag { c , s , i , f , e };
 
     Value(char v){
-        valHolder = (float)v;
+        cVal = v;
         tag = c;
     }
     Value(short v){
-        valHolder = (float)v;
+        sVal = v;
         tag = s;
     }
     Value(int v){
-        valHolder = (float)v;
+        iVal = v;
         tag = i;
     }
     Value(float v){
-        valHolder = v;
+        fVal = v;
         tag = f;
     }
+
 
 public:
     float valHolder;
     valueTag tag;
-    char getChar();
-    short getShort();
-    int getInt();
-    float getFloat();
+    char cVal;
+    short sVal;
+    int iVal;
+    float fVal;
 
-        char cVal;
-        short sVal;
-        int iVal;
-        float fVal;
+    Value& operator=(char v){
+        Value * newv = new Value(v);
+        return *newv;
+    }
+
+    Value& operator=(short v){
+        Value * newv = new Value(v);
+        return *newv;
+    }
+
+    Value& operator=(int v){
+        Value * newv = new Value(v);
+        return *newv;
+    }
+
+    Value& operator=(float v){
+        Value * newv = new Value(v);
+        return *newv;
+    }
+
+
 };
 
 

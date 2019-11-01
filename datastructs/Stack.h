@@ -22,22 +22,23 @@ class Stack {
     Stack(){}
 
 public:
-    std::vector<Value> stackVect;     //Creates the stack vector as a static vector of value objects
-                                            //-Used a vector object for dynamic memory allocation
+    static std::vector<Value> stackVect;    //Creates the stack vector as a static vector of value objects
+    static int sp;                          //-Used a vector object for dynamic memory allocation
                                             //-Used static so that any object that needs to access the
                                             // stack can just create a stack object
     //Init static variable sp
-    void InitSP();
+    //void InitSP();
 
     // Used to push a Value object onto the stack
-    void stack_Push(Value v);
+    //void stack_Push(Value v);
 
     //Used to pull a Value object from the stack
-    Value stack_Pull();
+    //Value stack_Pull();
 
-private:
-    static int sp;
+
 };
 
+std::vector<Value> Stack::stackVect;
+int Stack::sp;
 
 #endif //PROJ1_RUNTIMESTACKOBJECT_H

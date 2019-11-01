@@ -8,7 +8,6 @@ void chooseCode(unsigned char buffer);
 int main(int argc, char * argv[]) {
     /*Initialize the interpreter*/
     //Create a Stack
-    int pc = 0; //program counter (address of next instruction)
     Stack * rstack; //runtime stack
     int rsp = -1; //runtime stack pointer
     Stack * fpstack; //stack of frame pointers
@@ -16,11 +15,13 @@ int main(int argc, char * argv[]) {
 
     //Open and Read File
     ifstream inFile(argv[1], ios::in |ios::binary);//|ios::ate);;
-    std::vector<unsigned char> buffer(std::istreambuf_iterator<char>(inFile), {});
+    std::vector<unsigned char> buffer1(std::istreambuf_iterator<char>(inFile), {});
+
+    Buffer::buffer = buffer1;
 
     //read through the file:
-    for(pc = 0; pc < buffer.size(); pc++){
-        chooseCode(buffer[pc]);
+    for(Buffer::pc = 0; Buffer::pc < Buffer::buffer.size(); Buffer::pc++){
+        chooseCode(buffer1[Buffer::pc]);
     }
 
     //Close File

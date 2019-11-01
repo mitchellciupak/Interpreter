@@ -1,5 +1,5 @@
 #include "Stack.h"
-
+/*
 int Stack::sp = -1; //Init Static Member
 
 // Used to push a Value object onto the stack
@@ -12,3 +12,4 @@ Value Stack::stack_Pull(){
     return stackVect[sp--];
    // return stackVect[0]; //TODO ERROR
 }
+*/

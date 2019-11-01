@@ -2,6 +2,7 @@
 #define C_PROJ_PUSHC_H
 
 
+#include <datastructs/Stack.h>
 #include "ByteCode.h"
 
 class Pushc : public ByteCode{
@@ -10,7 +11,9 @@ class Pushc : public ByteCode{
 };
 
 void Pushc::execute() {
-
+    char c = Buffer::buffer[Buffer::pc+1];
+    Stack::stackVect[++Stack::sp] = c;
+    Buffer::pc += 2;
 }
 
 
