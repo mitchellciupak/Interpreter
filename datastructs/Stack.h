@@ -11,28 +11,29 @@ item. The object should have a field to hold the value of the data item, and a f
 the data items. Data items are of type char, short, int or float.
 The stack is initially empty.
 */
-#include "main.h"
+#include "Value.h"
+#include <iostream>
+#include <sys/stat.h>
+#include <stdio.h>
+#include <fstream>
 #include <vector>
 
 class Stack {
-    Stack(){
-        sp = -1;
-    }
+    Stack(){}
 
 public:
     std::vector<Value> stackVect;     //Creates the stack vector as a static vector of value objects
                                             //-Used a vector object for dynamic memory allocation
                                             //-Used static so that any object that needs to access the
                                             // stack can just create a stack object
+    //Init static variable sp
+    void InitSP();
+
     // Used to push a Value object onto the stack
-    void stack_Push(Value v){
-        stackVect[sp++] = v;
-    }
+    void stack_Push(Value v);
 
     //Used to pull a Value object from the stack
-    Value stack_Pull(){
-        return stackVect[sp--];
-    }
+    Value stack_Pull();
 
 private:
     static int sp;

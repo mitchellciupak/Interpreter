@@ -9,4 +9,8 @@ class pokei : public ByteCode{
         static void execute();
 };
 
+void pokei::execute() {
+
+}
+
 #endif //PROJ1_POKEI_H

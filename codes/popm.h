@@ -13,5 +13,9 @@ class popm : public ByteCode{
         static void execute();
 };
 
+void popm::execute() {
+
+}
+
 
 #endif //PROJ1_POPM_H

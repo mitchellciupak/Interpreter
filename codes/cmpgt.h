@@ -10,8 +10,9 @@
 
 class cmpgt : public ByteCode{
     public:
-        static void execute();
+        static void execute(){};
 };
+
 
 
 #endif //PROJ1_CMPGT_H

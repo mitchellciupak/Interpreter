@@ -10,5 +10,9 @@ class pushvi : public ByteCode{
         static void execute();
 };
 
+void pushvi::execute() {
+
+}
+
 
 #endif //PROJ1_PUSHVI_H

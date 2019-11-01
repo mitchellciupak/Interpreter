@@ -9,5 +9,9 @@ class printi : public ByteCode{
         static void execute();
 };
 
+void printi::execute() {
+
+}
+
 
 #endif //PROJ1_PRINTI_H

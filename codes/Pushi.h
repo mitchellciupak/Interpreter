@@ -9,5 +9,9 @@ class Pushi : public ByteCode{
         static void execute();
 };
 
+void Pushi::execute() {
+
+}
+
 
 #endif //PROJ1_PUSHI_H

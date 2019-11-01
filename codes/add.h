@@ -5,8 +5,7 @@
 
 class add : public ByteCode{
 public:
-    static void execute();
+    static void execute(){};
 };
-
 
 #endif //PROJ1_ADD_H

@@ -9,5 +9,9 @@ class prints : public ByteCode{
         static void execute();
 };
 
+void prints::execute() {
+
+}
+
 
 #endif //PROJ1_PRINTS_H

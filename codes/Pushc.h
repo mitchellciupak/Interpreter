@@ -9,5 +9,9 @@ class Pushc : public ByteCode{
         static void execute();
 };
 
+void Pushc::execute() {
+
+}
+
 
 #endif //C_PROJ_PUSHC_H

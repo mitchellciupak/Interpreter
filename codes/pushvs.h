@@ -9,5 +9,9 @@ class pushvs : public ByteCode{
         static void execute();
 };
 
+void pushvs::execute() {
+
+}
+
 
 #endif //PROJ1_PUSHVS_H

@@ -9,5 +9,9 @@ class peeki: public ByteCode{
         static void execute();
 };
 
+void peeki::execute() {
+
+}
+
 
 #endif //PROJ1_PEEKI_H

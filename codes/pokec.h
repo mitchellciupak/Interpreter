@@ -9,5 +9,9 @@ class pokec : public ByteCode{
         static void execute();
 };
 
+void pokec::execute() {
+
+}
+
 
 #endif //PROJ1_POKEC_H

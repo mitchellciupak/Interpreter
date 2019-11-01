@@ -6,7 +6,7 @@
 
 class cmpe : public ByteCode{
     public:
-       static void execute();
+       static void execute(){};
 };
 
 

@@ -9,5 +9,9 @@ class ret : public ByteCode{
         static void execute();
 };
 
+void ret::execute() {
+
+}
+
 
 #endif //PROJ1_RET_H

@@ -9,5 +9,9 @@ class swp : public ByteCode{
         static void execute();
 };
 
+void swp::execute() {
+
+}
+
 
 #endif //PROJ1_SWP_H

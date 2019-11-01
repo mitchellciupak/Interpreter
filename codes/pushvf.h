@@ -9,5 +9,9 @@ class pushvf : public ByteCode{
         static void execute();
 };
 
+void pushvf::execute() {
+
+}
+
 
 #endif //PROJ1_PUSHVF_H

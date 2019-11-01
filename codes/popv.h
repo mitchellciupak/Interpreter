@@ -9,4 +9,8 @@ class popv : public ByteCode{
         static void execute();
 };
 
+void popv::execute() {
+
+}
+
 #endif //PROJ1_POPV_H

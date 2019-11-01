@@ -3,7 +3,7 @@
 using namespace std;
 
 //Functions
-void chooseCode(char * buffer);
+void chooseCode(unsigned char buffer);
 
 int main(int argc, char * argv[]) {
     /*Initialize the interpreter*/
@@ -20,7 +20,7 @@ int main(int argc, char * argv[]) {
 
     //read through the file:
     for(pc = 0; pc < buffer.size(); pc++){
-        chooseCode(&(buffer[pc]));
+        chooseCode(buffer[pc]);
     }
 
     //Close File
@@ -29,15 +29,15 @@ int main(int argc, char * argv[]) {
     /*Initialize Stack*/
 }
 
-void chooseCode(unsigned char * buffer) {
-    if (*buffer == (char) 0) {
+void chooseCode(unsigned char buffer) {
+    if (buffer == (char) 0) {
         Halt::print();
         std::exit(EXIT_SUCCESS);
     }
 
-    if (int(*buffer) >  99) {
-        if (int(*buffer) < 120) { //arithmetic byte codes
-            switch (*buffer) {
+    if (int(buffer) >  99) {
+        if (int(buffer) < 120) { //arithmetic byte codes
+            switch (buffer) {
                 case 100:
                     add::execute();
                     break;
@@ -53,8 +53,8 @@ void chooseCode(unsigned char * buffer) {
                 default :
                     cout << "Invalid" << endl;
             }
-        } else if (int(*buffer) < 141) { //comparison bytecodes
-            switch (*buffer) {
+        } else if (int(buffer) < 141) { //comparison bytecodes
+            switch (buffer) {
                 case 132:
                     cmpe::execute();
                     break;
@@ -68,7 +68,7 @@ void chooseCode(unsigned char * buffer) {
                     cout << "Invalid" << endl;
             }
         } else { //special op codes
-            switch (*buffer) {
+            switch (buffer) {
                 case 144:
                     printc::execute();
                     break;
@@ -85,8 +85,8 @@ void chooseCode(unsigned char * buffer) {
                     cout << "Invalid" << endl;
             }
         }
-    } else if (int(*buffer) < 50) { //Control flow bytecodes
-        switch (*buffer) {
+    } else if (int(buffer) < 50) { //Control flow bytecodes
+        switch (buffer) {
             case 36:
                 jmp::execute();
                 break;
@@ -103,7 +103,7 @@ void chooseCode(unsigned char * buffer) {
                 cout << "Invalid" << endl;
         }
     } else { //stack manipulation byte codes
-        switch (*buffer) {
+        switch (buffer) {
             case 68:
                 Pushc::execute();
                 break;

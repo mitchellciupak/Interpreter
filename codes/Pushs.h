@@ -13,5 +13,9 @@ class Pushs : public ByteCode{
         static void execute();
 };
 
+void Pushs::execute() {
+
+}
+
 
 #endif //PROJ1_PUSHS_H

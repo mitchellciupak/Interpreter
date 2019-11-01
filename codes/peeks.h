@@ -9,5 +9,9 @@ class peeks : public ByteCode{
         static void execute();
 };
 
+void peeks::execute() {
+
+}
+
 
 #endif //PROJ1_PEEKS_H

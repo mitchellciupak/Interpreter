@@ -10,7 +10,7 @@
 
 class div : public ByteCode{
     public:
-        static void execute();
+        static void execute(){};
 };
 
 

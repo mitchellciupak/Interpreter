@@ -9,5 +9,9 @@ class sub : public ByteCode{
         static void execute();
 };
 
+void sub::execute() {
+
+}
+
 
 #endif //PROJ1_SUB_H

@@ -9,5 +9,9 @@ class popa : public ByteCode{
         static void execute();
 };
 
+void popa::execute() {
+
+}
+
 
 #endif //PROJ1_POPA_H

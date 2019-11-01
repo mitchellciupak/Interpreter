@@ -9,5 +9,9 @@ class peekc : public ByteCode{
         static void execute();
 };
 
+void peekc::execute() {
+
+}
+
 
 #endif //PROJ1_PEEKC_H

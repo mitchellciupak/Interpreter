@@ -6,8 +6,9 @@
 
 class mul : public ByteCode{
     public :
-        static void execute();
+        static void execute(){};
 };
+
 
 
 #endif //PROJ1_MUL_H

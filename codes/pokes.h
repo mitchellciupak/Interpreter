@@ -8,5 +8,9 @@ class pokes : public ByteCode{
         static void execute();
 };
 
+void pokes::execute() {
+
+}
+
 
 #endif //PROJ1_POKES_H

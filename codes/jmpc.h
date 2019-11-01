@@ -13,5 +13,9 @@ class jmpc : public ByteCode{
         static void execute();
 };
 
+void jmpc::execute() {
+
+}
+
 
 #endif //PROJ1_JMPC_H
