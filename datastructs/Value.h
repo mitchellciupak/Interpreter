@@ -2,9 +2,13 @@
 #define C_PROJ_VALUE_H
 
 //#include "main.h"
+
 #include "MemoryObject.h"
 
+enum types {c,s,i,f}; //character, short, int, float
+
 class Value : public MemoryObject {
+<<<<<<< Updated upstream
     enum valueTag { c , s , i , f , e };
 
     Value(char v){
@@ -31,7 +35,25 @@ public:
     short getShort();
     int getInt();
     float getFloat();
+=======
+    //valueTag enum {char, short, int, float, error};
+    Value(char type) {
+        types = type;
+    }
 
+
+    public:
+        char getChar();
+        short getShort();
+        int getInt();
+        float getFloat();
+>>>>>>> Stashed changes
+
+
+        char cVal;
+        short sVal;
+        int iVal;
+        float fVal;
 };
 
 
