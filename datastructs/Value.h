@@ -27,9 +27,7 @@ class Value : public MemoryObject {
         tag = f;
     }
 
-
 public:
-    float valHolder;
     valueTag tag;
     char cVal;
     short sVal;
@@ -55,8 +53,6 @@ public:
         Value * newv = new Value(v);
         return *newv;
     }
-
-
 };
 
 

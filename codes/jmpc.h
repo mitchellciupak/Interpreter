@@ -14,7 +14,10 @@ class jmpc : public ByteCode{
 };
 
 void jmpc::execute() {
-
+    if(Stack::stackVect[Stack::sp -1].tag){
+        Buffer::pc = Stack::stackVect[Stack::sp].iVal;
+    }
+    Stack::sp -= 2;
 }
 
 
