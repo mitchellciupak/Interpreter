@@ -10,7 +10,10 @@
 
 class cmpgt : public ByteCode{
     public:
-        static void execute(){};
+        static void execute(){
+            Stack::stackVect[Stack::sp-1] = Stack::stackVect[Stack::sp-1] > Stack::stackVect[Stack::sp];
+            Stack::sp--;
+        };
 };
 
 

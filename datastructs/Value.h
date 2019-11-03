@@ -55,6 +55,50 @@ public:
         Value * newv = new Value(v);
         return *newv;
     }
+
+    bool operator==(const Value& v2){
+        if(this->tag != v2.tag){
+            return 0;
+        }else if(this->tag == 0 && this->cVal == v2.cVal){
+            return 1;
+        }else if(this->tag == 1 && this->sVal == v2.sVal){
+            return 1;
+        }else if(this->tag == 2 && this->iVal == v2.iVal){
+            return 1;
+        }else if(this->tag == 3 && this->fVal == v2.fVal){
+            return 1;
+        }
+        return 0;
+    }
+    bool operator<(const Value& v2){
+        if(this->tag != v2.tag){
+            return 0;
+        }else if(this->tag == 0 && this->cVal < v2.cVal){
+            return 1;
+        }else if(this->tag == 1 && this->sVal < v2.sVal){
+            return 1;
+        }else if(this->tag == 2 && this->iVal < v2.iVal){
+            return 1;
+        }else if(this->tag == 3 && this->fVal < v2.fVal){
+            return 1;
+        }
+        return 0;
+    }
+    bool operator>(const Value& v2){
+        if(this->tag != v2.tag){
+            return 0;
+        }else if(this->tag == 0 && this->cVal > v2.cVal){
+            return 1;
+        }else if(this->tag == 1 && this->sVal > v2.sVal){
+            return 1;
+        }else if(this->tag == 2 && this->iVal > v2.iVal){
+            return 1;
+        }else if(this->tag == 3 && this->fVal > v2.fVal){
+            return 1;
+        }
+        return 0;
+    }
+
     friend std::ostream& operator<<(std::ostream& os, const Value& v){
         if(v.tag == 0){
             os << v.cVal;
