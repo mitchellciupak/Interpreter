@@ -65,10 +65,8 @@ public:
         }else if(v.tag == 3){
             os << v.fVal;
         }
-        //os <<  << '/' << dt.da << '/' << dt.yr;
         return os;
     };
-
 };
 
 
