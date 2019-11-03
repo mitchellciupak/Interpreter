@@ -19,8 +19,6 @@ int main(int argc, char * argv[]) {
 
     //Close File
     inFile.close();
-
-    /*Initialize Stack*/
 }
 
 void chooseCode(unsigned char buffer) {
