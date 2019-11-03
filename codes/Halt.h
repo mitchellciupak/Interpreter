@@ -12,28 +12,33 @@ class Halt : public ByteCode{
 };
 
 void Halt::print() {
+     std::cout << "PC: " << Buffer::pc << std::endl;
 
-    // Print empty if a stack is empty.
-    if(Stack::sp == -1) {
-        std::cout << "Empty" << std::endl;
-    } else { //Print pc, sp, rstack, fpsp, fpstack.
-        std::cout << "pc:" << Buffer::pc << std::endl;
-        std::cout << "sp:" << Stack::sp << std::endl;
+     std::cout << "sp: " << Stack::sp << std::endl;
+     if(Stack::sp == -1){
+         std::cout << "rstack: empty" << std::endl;
+     }
+     else {
+         int i = 0;
+         while(i < Stack::stackVect.size()) {
+             std::cout << "rstack[" << i << "]:" << Stack::stackVect[i] << std::endl;
+             i++;
+         }
+     }
 
-        int i = 0;
-        std::cout << "rstack:" << std::endl;
-        while(i < Stack::stackVect.size()) {
-            std::cout << "rstack[" << i << "]:" << Stack::stackVect[i] << std::endl;
-            i++;
-        }
+    std::cout << "fpsp: " << FrameStack::fpsp << std::endl;
+    if (FrameStack::fpsp == -1) {
+         std::cout << "fpstack: empty" << std::endl;
 
-        std::cout << "fpstack" << std::endl;
-        std::cout << "fpsp:" << FrameStack::fpsp << std::endl;
-        while(i < Stack::stackVect.size()) {
-            std::cout << "fpstack[" << i << "]: " << Stack::stackVect[i] << std::endl;
-            i++;
-        }
-    }
+     }
+    else {
+         int j = 0;
+         while(j < Stack::stackVect.size()) {
+             std::cout << "fpstack[" << j << "]: " << Stack::stackVect[j] << std::endl;
+             j++;
+         }
+     }
+
 }
 
 
