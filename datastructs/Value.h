@@ -8,7 +8,7 @@
 enum types {c,s,i,f}; //character, short, int, float
 
 class Value : public MemoryObject {
-    enum valueTag { c , s , i , f , e };
+    enum valueTag {c,s,i,f,e};
 
     Value(char v){
         cVal = v;
@@ -55,7 +55,6 @@ public:
         Value * newv = new Value(v);
         return *newv;
     }
-
 
 };
 
