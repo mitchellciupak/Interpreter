@@ -10,7 +10,8 @@ class call : public ByteCode{ //TODO FIX
     public:
         static void execute(){
             FrameStack::fpsp += 1;
-            FrameStack::FrameVect[FrameStack::fpsp] = Stack::sp - Stack::stackVect[Stack::sp].iVal - 1;
+            int i = Stack::sp - Stack::stackVect[Stack::sp].iVal - 1;
+            FrameStack::FrameVect.push_back(i);
             Stack::sp--;
             Buffer::pc = Stack::stackVect[Stack::sp--].iVal;
         };
