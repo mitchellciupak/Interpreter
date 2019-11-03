@@ -7,10 +7,10 @@
 class pushf : public ByteCode{
 public:
     static void execute(){
-        float f  = float((unsigned char)(Buffer::buffer[Buffer::pc+1]) << 24 |
-                                           (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 16 |
-                                           (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 8 |
-                                           (unsigned char)(Buffer::buffer[Buffer::pc+4]));
+        float f  = float((unsigned char)(Buffer::buffer[Buffer::pc+1]) |
+                                           (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 8 |
+                                           (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 16 |
+                                           (unsigned char)(Buffer::buffer[Buffer::pc+4]) << 24);
         ++Stack::sp;
         Value v = f;
         Stack::stackVect.push_back(v);

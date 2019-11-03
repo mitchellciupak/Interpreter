@@ -10,10 +10,10 @@ class Pushi : public ByteCode{
 };
 
 void Pushi::execute() {
-    int i  = int((unsigned char)(Buffer::buffer[Buffer::pc+1]) << 24 |
-            (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 16 |
-            (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 8 |
-            (unsigned char)(Buffer::buffer[Buffer::pc+4]));
+    int i  = int((unsigned char)(Buffer::buffer[Buffer::pc+1]) |
+            (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 8 |
+            (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 16 |
+            (unsigned char)(Buffer::buffer[Buffer::pc+4]) << 24);
     ++Stack::sp;
     Value v = i;
     Stack::stackVect.push_back(v);

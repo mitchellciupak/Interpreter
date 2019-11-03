@@ -7,7 +7,7 @@ void chooseCode(unsigned char buffer);
 
 int main(int argc, char * argv[]) {
     //Open and Read File
-    ifstream inFile(argv[1], ios::in |ios::binary);//|ios::ate);;
+    ifstream inFile(argv[1], ios::in |ios::binary);
     std::vector<unsigned char> buffer1(std::istreambuf_iterator<char>(inFile), {});
 
     Buffer::buffer = buffer1;
