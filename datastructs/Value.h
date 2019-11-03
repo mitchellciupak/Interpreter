@@ -4,6 +4,7 @@
 //#include "main.h"
 
 #include "MemoryObject.h"
+#include <ostream>
 
 enum types {c,s,i,f}; //character, short, int, float
 
@@ -54,6 +55,20 @@ public:
         Value * newv = new Value(v);
         return *newv;
     }
+    friend std::ostream& operator<<(std::ostream& os, const Value& v){
+        if(v.tag == 0){
+            os << v.cVal;
+        }else if(v.tag == 1){
+            os << v.sVal;
+        }else if(v.tag == 2){
+            os << v.iVal;
+        }else if(v.tag == 3){
+            os << v.fVal;
+        }
+        //os <<  << '/' << dt.da << '/' << dt.yr;
+        return os;
+    };
+
 };
 
 

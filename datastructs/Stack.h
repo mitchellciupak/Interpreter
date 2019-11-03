@@ -26,8 +26,6 @@ class Stack {
 public:
     static std::vector<Value> stackVect;    //Creates the stack vector as a static vector of value objects
     static int sp;                          //-Used a vector object for dynamic memory allocation
-                                            //-Used static so that any object that needs to access the
-                                            // stack can just create a stack object
 
 };
 
