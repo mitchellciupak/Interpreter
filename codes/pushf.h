@@ -12,7 +12,7 @@ public:
                                            (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 8 |
                                            (unsigned char)(Buffer::buffer[Buffer::pc+4]));
         Stack::stackVect[++Stack::sp] = f;
-        Buffer::pc += 5;
+        Buffer::pc += 4;
     };
 };
 
