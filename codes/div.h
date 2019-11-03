@@ -13,7 +13,7 @@ class div : public ByteCode{
 
 void div::execute() {
     //Add first two items on runtime stack and push result to stack
-    Stack::stackVect[Stack::sp - 1] = Stack::stackVect[Stack::sp - 1] / Stack::stackVect[Stack::sp];
+    Stack::stackVect[Stack::sp - 1].valHolder = Stack::stackVect[Stack::sp - 1].valHolder / Stack::stackVect[Stack::sp].valHolder;
     Stack::sp -= 1;
 }
 
