@@ -10,6 +10,7 @@ enum types {c,s,i,f}; //character, short, int, float
 class Value : public MemoryObject {
     enum valueTag { c , s , i , f , e };
 
+public:
     Value(char v){
         cVal = v;
         tag = c;
@@ -18,16 +19,16 @@ class Value : public MemoryObject {
         sVal = v;
         tag = s;
     }
-    Value(int v){
-        iVal = v;
-        tag = i;
-    }
+
     Value(float v){
         fVal = v;
         tag = f;
     }
-
-public:
+    
+    Value(int v){
+        iVal = v;
+        tag = i;
+    }
     valueTag tag;
     char cVal;
     short sVal;

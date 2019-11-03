@@ -11,7 +11,9 @@ public:
                                            (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 16 |
                                            (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 8 |
                                            (unsigned char)(Buffer::buffer[Buffer::pc+4]));
-        Stack::stackVect[++Stack::sp] = f;
+        ++Stack::sp;
+        Value v = f;
+        Stack::stackVect.push_back(v);
         Buffer::pc += 4;
     };
 };

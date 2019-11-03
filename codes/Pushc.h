@@ -12,7 +12,9 @@ class Pushc : public ByteCode{
 
 void Pushc::execute() {
     char c = Buffer::buffer[Buffer::pc+1];
-    Stack::stackVect[++Stack::sp] = c;
+    ++Stack::sp;
+    Value v = c;
+    Stack::stackVect.push_back(v);
     Buffer::pc += 1;
 }
 

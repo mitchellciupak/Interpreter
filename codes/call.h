@@ -6,10 +6,11 @@
 #include "ByteCode.h"
 #include "FrameStack.h"
 
-class call : public ByteCode{
+class call : public ByteCode{ //TODO FIX
     public:
         static void execute(){
-            FrameStack::FrameVect[++FrameStack::fpsp] = Stack::sp - Stack::stackVect[Stack::sp].iVal - 1;
+            FrameStack::fpsp += 1;
+            FrameStack::FrameVect[FrameStack::fpsp] = Stack::sp - Stack::stackVect[Stack::sp].iVal - 1;
             Stack::sp--;
             Buffer::pc = Stack::stackVect[Stack::sp--].iVal;
         };

@@ -1,7 +1,3 @@
-//
-// Created by Colin Cassens on 11/1/19.
-//
-
 #ifndef C___PROJ_BUFFER_H
 #define C___PROJ_BUFFER_H
 
