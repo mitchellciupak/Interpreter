@@ -14,7 +14,10 @@ class Pushs : public ByteCode{
 };
 
 void Pushs::execute() {
-
+    short s  = short((unsigned char)(Buffer::buffer[Buffer::pc+1] << 8 |
+            (unsigned char)(Buffer::buffer[Buffer::pc+2])));
+    Stack::stackVect[++Stack::sp] = s;
+    Buffer::pc += 3;
 }
 
 

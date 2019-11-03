@@ -6,7 +6,14 @@
 
 class pushf : public ByteCode{
 public:
-    static void execute(){};
+    static void execute(){
+        float f  = float((unsigned char)(Buffer::buffer[Buffer::pc+1]) << 24 |
+                                           (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 16 |
+                                           (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 8 |
+                                           (unsigned char)(Buffer::buffer[Buffer::pc+4]));
+        Stack::stackVect[++Stack::sp] = f;
+        Buffer::pc += 5;
+    };
 };
 
 

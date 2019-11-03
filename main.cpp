@@ -6,13 +6,6 @@ using namespace std;
 void chooseCode(unsigned char buffer);
 
 int main(int argc, char * argv[]) {
-    /*Initialize the interpreter*/
-    //Create a Stack
-    Stack * rstack; //runtime stack
-    int rsp = -1; //runtime stack pointer
-    Stack * fpstack; //stack of frame pointers
-    int fpsp = -1; //frame pointer stack pointer (points to the top of the frame stack)
-
     //Open and Read File
     ifstream inFile(argv[1], ios::in |ios::binary);//|ios::ate);;
     std::vector<unsigned char> buffer1(std::istreambuf_iterator<char>(inFile), {});
