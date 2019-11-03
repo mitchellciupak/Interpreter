@@ -13,6 +13,6 @@ public:
 };
 
 std::vector<int> FrameStack::FrameVect;
-int FrameStack::fpsp;
+int FrameStack::fpsp = -1;
 
 #endif //C___PROJ_FRAMESTACK_H

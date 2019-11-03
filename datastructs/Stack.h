@@ -11,7 +11,9 @@ item. The object should have a field to hold the value of the data item, and a f
 the data items. Data items are of type char, short, int or float.
 The stack is initially empty.
 */
+
 #include "Value.h"
+#include "Buffer.h"
 #include <iostream>
 #include <sys/stat.h>
 #include <stdio.h>
@@ -30,6 +32,6 @@ public:
 };
 
 std::vector<Value> Stack::stackVect;
-int Stack::sp;
+int Stack::sp = -1;
 
 #endif //PROJ1_RUNTIMESTACKOBJECT_H

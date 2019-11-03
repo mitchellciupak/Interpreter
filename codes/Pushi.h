@@ -14,7 +14,9 @@ void Pushi::execute() {
             (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 16 |
             (unsigned char)(Buffer::buffer[Buffer::pc+3]) << 8 |
             (unsigned char)(Buffer::buffer[Buffer::pc+4]));
-    Stack::stackVect[++Stack::sp] = i;
+    ++Stack::sp;
+    Value v = i;
+    Stack::stackVect.push_back(v);
     Buffer::pc += 4;
 }
 
