@@ -9,8 +9,9 @@ class pushvs : public ByteCode{
         static void execute();
 };
 
+//Not sure that this is how its done, could be right
 void pushvs::execute() {
-
+    Stack::stackVect[Stack::sp] = Stack::stackVect[FrameStack::FrameVect[FrameStack::fpsp] + Stack::stackVect[Stack::sp].sVal + 1];
 }
 
 
