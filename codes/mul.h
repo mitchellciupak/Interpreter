@@ -33,6 +33,8 @@ void mul::execute() {
         default:
             break;
     }
+    Stack::sp -= 1;
+
 }
 
 #endif //PROJ1_MUL_H

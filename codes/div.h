@@ -31,6 +31,8 @@ void div::execute() {
         default:
             break;
     }
+    Stack::sp -= 1;
+
 }
 
 

@@ -10,9 +10,10 @@ class swp : public ByteCode{
 };
 
 void swp::execute() {
-    Value tmp = Stack::stackVect[Stack::sp -1];
-    Stack::stackVect[Stack::sp -1] = Stack::stackVect[Stack::sp];
-    Stack::stackVect[Stack::sp] = tmp;
+    Value v1 = Stack::stackVect[Stack::sp -1];
+    Value v2 = Stack::stackVect[Stack::sp];
+    Stack::stackVect.insert(Stack::stackVect.begin() + Stack::sp, 1, v1);
+    Stack::stackVect.insert(Stack::stackVect.begin() + Stack::sp -1 , 1, v2);
 }
 
 
