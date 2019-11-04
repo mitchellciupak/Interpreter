@@ -12,7 +12,7 @@ class Halt : public ByteCode{
 };
 
 void Halt::print() {
-     std::cout << "PC: " << Buffer::pc << std::endl;
+     std::cout  << "\nCompile Values:\nPC: " << Buffer::pc << std::endl;
 
      std::cout << "sp: " << Stack::sp << std::endl;
      if(Stack::sp == -1){
