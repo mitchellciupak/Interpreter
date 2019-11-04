@@ -1,6 +1,3 @@
-//
-// Created by Colin Cassens on 2019-10-19.
-//
 
 #ifndef PROJ1_JMPC_H
 #define PROJ1_JMPC_H
@@ -14,8 +11,8 @@ class jmpc : public ByteCode{
 };
 
 void jmpc::execute() {
-    if(Stack::stackVect[Stack::sp -1].tag){
-        Buffer::pc = Stack::stackVect[Stack::sp].iVal;
+    if(Stack::stackVect[Stack::sp -1].iVal == 1 && Stack::stackVect[Stack::sp-1].tag == 2){
+        Buffer::pc = Stack::stackVect[Stack::sp].iVal - 1;
     }
     Stack::sp -= 2;
 }

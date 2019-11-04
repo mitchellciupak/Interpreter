@@ -19,7 +19,7 @@ class jmp : public ByteCode{
             }else if(v.tag == 3){
                 val = (int)v.fVal;
             }
-            Buffer::pc = val;
+            Buffer::pc = val - 1;
             Stack::sp--;
         };
 };
