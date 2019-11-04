@@ -10,8 +10,8 @@ class prints : public ByteCode{
 };
 
 void prints::execute() {
-    Value v = Stack::stackVect[Stack::sp - 1];
-    std::cout << v.sVal << std::endl;
+    Value v = Stack::stackVect[Stack::sp--];
+    std::cout << v << std::endl;
 }
 
 

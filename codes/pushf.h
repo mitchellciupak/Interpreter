@@ -13,7 +13,7 @@ public:
                                            (unsigned char)(Buffer::buffer[Buffer::pc+4]) << 24);
         ++Stack::sp;
         Value v = f;
-        Stack::stackVect.push_back(v);
+        Stack::stackVect.insert(Stack::stackVect.begin() + Stack::sp, 1, v);
         Buffer::pc += 4;
     };
 };

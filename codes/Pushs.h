@@ -7,6 +7,7 @@
 
 
 #include "ByteCode.h"
+#include <vector>
 
 class Pushs : public ByteCode{
     public:
@@ -16,9 +17,9 @@ class Pushs : public ByteCode{
 void Pushs::execute() {
     short s  = short((unsigned char)(Buffer::buffer[Buffer::pc+1]) |
             (unsigned char)(Buffer::buffer[Buffer::pc+2]) << 8);
-    ++Stack::sp;
+    Stack::sp += 1;
     Value v = s;
-    Stack::stackVect.push_back(v);
+    Stack::stackVect.insert(Stack::stackVect.begin() + Stack::sp, 1, v);
     Buffer::pc += 2;
 }
 

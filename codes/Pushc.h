@@ -14,7 +14,7 @@ void Pushc::execute() {
     char c = Buffer::buffer[Buffer::pc+1];
     ++Stack::sp;
     Value v = c;
-    Stack::stackVect.push_back(v);
+    Stack::stackVect.insert(Stack::stackVect.begin() + Stack::sp, 1, v);
     Buffer::pc += 1;
 }
 

@@ -101,7 +101,7 @@ public:
 
     friend std::ostream& operator<<(std::ostream& os, const Value& v){
         if(v.tag == 0){
-            os << v.cVal;
+            os << (int)v.cVal;
         }else if(v.tag == 1){
             os << v.sVal;
         }else if(v.tag == 2){

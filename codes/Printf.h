@@ -11,8 +11,8 @@ class Printf : public ByteCode{
 };
 
 void Printf::execute() {
-    Value v = Stack::stackVect[Stack::sp - 1];
-    std::cout << v.fVal << std::endl;
+    Value v = Stack::stackVect[Stack::sp--];
+    std::cout << v << std::endl;
 }
 
 

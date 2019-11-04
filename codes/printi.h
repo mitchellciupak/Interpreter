@@ -10,8 +10,8 @@ class printi : public ByteCode{
 };
 
 void printi::execute() {
-    Value v = Stack::stackVect[Stack::sp - 1];
-    std::cout << v.iVal << std::endl;
+    Value v = Stack::stackVect[Stack::sp--];
+    std::cout << v << std::endl;
 }
 
 
