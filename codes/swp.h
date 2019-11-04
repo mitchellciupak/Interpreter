@@ -10,7 +10,9 @@ class swp : public ByteCode{
 };
 
 void swp::execute() {
-
+    Value tmp = Stack::stackVect[Stack::sp -1];
+    Stack::stackVect[Stack::sp -1] = Stack::stackVect[Stack::sp];
+    Stack::stackVect[Stack::sp] = tmp;
 }
 
 
