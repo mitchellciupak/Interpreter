@@ -6,6 +6,7 @@
 /*Description*/
 //pop all of the top entries to frame stack point from the runtime stack but keep val top entries.
 //The number of entries to keep is at the top of the runtime stack.
+//rstack[fpstack[fpsp] + 1] = rstack[sp – rstack[sp]]
 
 
 class popa : public ByteCode{
@@ -14,14 +15,13 @@ class popa : public ByteCode{
 };
 
 void popa::execute() {
-//    rstack[fpstack[fpsp] + 1] = rstack[sp – rstack[sp]]
-//    rstack[fpstack[fpsp] + 2] = rstack[sp – rstack[sp]+1]
-//    . . .
-//    rstack[fpstack[fpsp] + rstack[sp]] = rstack[sp-1]
-//    sp = fpstack[fpsp]+rstack[sp]
-
-
-
+    int count = Stack::stackVect[Stack::sp].iVal;
+    Value v = Stack::stackVect[Stack::sp];
+    for(int i = 1; i<=count; i++){
+        v = Stack::stackVect[Stack::sp - Stack::stackVect[Stack::sp].iVal + i - 1];
+        Stack::stackVect.insert(Stack::stackVect.begin() + FrameStack::FrameVect[FrameStack::fpsp] + i, 1, v);
+    }
+    Stack::sp = FrameStack::FrameVect[FrameStack::fpsp] + Stack::stackVect[Stack::sp].iVal;
 }
 
 

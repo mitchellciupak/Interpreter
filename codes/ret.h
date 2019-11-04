@@ -12,7 +12,7 @@ class ret : public ByteCode{
 
 void ret::execute() {
     Stack::sp = FrameStack::FrameVect[FrameStack::fpsp--];
-    Buffer::pc = Stack::stackVect[Stack::sp--].iVal;
+    Buffer::pc = Stack::stackVect[Stack::sp--].iVal - 1;
 }
 
 
