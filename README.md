@@ -8,11 +8,6 @@ The bytecode interpreter will read a bytecode file produced by your compiler, an
 
 ## Current Branches:
 #### List of current branches, and the files they edit and description
-##### feature_Value: value.cpp value.h
-##### feature_ByteCode:
-##### feature_DecsionMatrix: main.cpp
-##### feature_ArithmaticOps: add(.h,.cpp), sub(.h,.cpp), mul(.h,.cpp),div(.h,.cpp) 
-
 
 ## Misc
 .smp files are to be treated as binary files
